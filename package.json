@@ -1,0 +1,7 @@
+{
+  "author": "pfaffman",
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "eslint-config-discourse": "latest"
+  }
+}

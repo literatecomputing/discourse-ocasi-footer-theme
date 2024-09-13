@@ -1,28 +1,44 @@
 .ocasi-footer {
   background-color: #f8f8f8;
   padding: 20px 0;
-  text-align: center;
   font-size: 14px;
   color: #666;
   border-top: 1px solid #e5e5e5;
   margin-top: 20px;
-  a {
-    color: #666;
-    text-decoration: none;
-    &:hover {
-      color: #333;
-    }
-  }
-  .ocasi-logo {
-    display: inline-block;
-    margin: 0 10px;
-    img {
-    }
-  }
-  .ontario-logo {
-    display: inline-block;
-    margin: 0 10px;
-    img {
-    }
-  }
+
+  /* Modify these properties */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  box-sizing: border-box;
+}
+
+.ocasi-footer a {
+  color: #666;
+  text-decoration: none;
+}
+
+.ocasi-footer a:hover {
+  color: #333;
+}
+
+.ocasi-logo,
+.ontario-logo {
+  flex-shrink: 0; /* Prevent logos from shrinking */
+}
+
+/* You can adjust the max-width of images if needed */
+.ocasi-logo img,
+.ontario-logo img {
+  max-width: 150px;
+  height: auto;
+}
+
+/* Add this to ensure the center content doesn't push logos out */
+.footer-content {
+  flex-grow: 1;
+  text-align: center;
+  padding: 0 20px;
 }

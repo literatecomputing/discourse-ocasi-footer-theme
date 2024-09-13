@@ -1,0 +1,10 @@
+{
+  "about_url": "https://github.com/literatecomputing/discourse-ocasi-footer-theme",
+  "license_url": "https://www.gnu.org/licenses/gpl-3.0.en.html",
+  "assets": {
+    "ocasi": "assets/ocasi.png",
+    "ontario": "assets/ontario.png"
+  },
+  "name": "OCASI Footer",
+  "component": true
+}

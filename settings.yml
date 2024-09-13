@@ -1,0 +1,7 @@
+footer_outlet:
+  type: "enum"
+  description: "Footer Outlet---where the footer will display"
+  default: "main-outlet-bottom"
+  choices:
+    - main-outlet-bottom
+    - above-footer
