@@ -10,8 +10,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
   box-sizing: border-box;
 }
 
@@ -26,7 +26,7 @@
 
 .ocasi-logo,
 .ontario-logo {
-  flex-shrink: 0; /* Prevent logos from shrinking */
+  flex-shrink: 2; /* Prevent logos from shrinking */
 }
 
 /* You can adjust the max-width of images if needed */
