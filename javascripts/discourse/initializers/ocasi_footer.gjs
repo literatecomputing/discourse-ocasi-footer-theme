@@ -1,6 +1,6 @@
 import { apiInitializer } from "discourse/lib/api";
-import OcasiFooter from "../components/ocasi-footer";
+import OcasiFooter from "../components/ocasi-footer.gjs";
 
-export default apiInitializer("1.15.0", (api) => {
+export default apiInitializer((api) => {
   api.renderInOutlet(settings.footer_outlet, OcasiFooter);
 });
