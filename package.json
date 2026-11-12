@@ -8,7 +8,6 @@
     "discourse": "npm:@discourse/types@2026.10.0-a5125163",
     "ember-content-mapper": "0.3.1",
     "eslint": "10.6.0",
-    "eslint-config-discourse": "latest",
     "lint-to-the-future": "^3.2.0",
     "lint-to-the-future-eslint": "^4.0.0",
     "prettier": "3.8.1",
